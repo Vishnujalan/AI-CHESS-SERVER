@@ -1,0 +1,49 @@
+.text-align-center {
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 90px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(27, 26, 26);; 
+    
+}
+
+#myBoard {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: brightness(0.9);
+    filter: brightness(0.9);
+    box-shadow: inset 0px -100px 25px rgb(24, 24, 24), 6px 5px 5px rgb(9, 8, 8);
+    margin: 20px 30px;
+    position:relative; bottom:50px;
+    
+      
+
+}
+
+.highlight-white {
+    box-shadow: inset 0 0 0px 0px yellow;
+}
+
+.highlight-black {
+    box-shadow: inset 0 0 0px 2px blue;
+}
+
+.highlight-hint {
+    box-shadow: inset 0 0 3px 2px red;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-outline:focus {
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.btn-header {
+    font-size: 20px;
+    font-weight: bold;    
+}
+
